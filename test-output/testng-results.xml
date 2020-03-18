@@ -1,525 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="10" passed="4" failed="2" skipped="3">
+<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-03-18T19:10:28 EDT" name="HubSpot Regression Suite" finished-at="2020-03-18T19:12:11 EDT" duration-ms="102311">
+  <suite started-at="2020-03-18T19:39:49 EDT" name="HubSpot Regression Suite" finished-at="2020-03-18T19:40:24 EDT" duration-ms="34743">
     <groups>
       <group name="sanity">
-        <method signature="HomePageTest.verifyHomePageTitleTest()[pri:1, instance:com.qa.hubspot.tests.HomePageTest@42fcc7e6]" name="verifyHomePageTitleTest" class="com.qa.hubspot.tests.HomePageTest"/>
-        <method signature="LoginPageTest.verifySignUpLinkTest()[pri:2, instance:com.qa.hubspot.tests.LoginPageTest@4a0df195]" name="verifySignUpLinkTest" class="com.qa.hubspot.tests.LoginPageTest"/>
+        <method signature="HomePageTest.verifyHomePageTitleTest()[pri:1, instance:com.qa.hubspot.tests.HomePageTest@671facee]" name="verifyHomePageTitleTest" class="com.qa.hubspot.tests.HomePageTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2020-03-18T19:10:28 EDT" name="HubSpot Functional Regression Test" finished-at="2020-03-18T19:12:11 EDT" duration-ms="102311">
-      <class name="com.qa.hubspot.tests.LoginPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@4a0df195]" started-at="2020-03-18T19:10:29 EDT" name="setUp" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1584573029273" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in /Users/anshumansehgal/eclipse-workspace/NaveenPOMSeries/src/test/resources/testrunners/testng_Regression.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in /Users/anshumansehgal/eclipse-workspace/NaveenPOMSeries/src/test/resources/testrunners/testng_Regression.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:289)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
-at org.testng.internal.Parameters.createParameters(Parameters.java:721)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.hubspot.tests.LoginPageTest@4a0df195]" started-at="2020-03-18T19:10:29 EDT" name="verifyLoginPageTitleTest" finished-at="2020-03-18T19:10:29 EDT" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in /Users/anshumansehgal/eclipse-workspace/NaveenPOMSeries/src/test/resources/testrunners/testng_Regression.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in /Users/anshumansehgal/eclipse-workspace/NaveenPOMSeries/src/test/resources/testrunners/testng_Regression.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:289)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
-at org.testng.internal.Parameters.createParameters(Parameters.java:721)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@4a0df195]" started-at="2020-03-18T19:10:29 EDT" name="tearDown" finished-at="2020-03-18T19:10:29 EDT" duration-ms="8" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.qa.hubspot.tests.LoginPageTest.tearDown(LoginPageTest.java:100)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:530)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@4a0df195]" started-at="2020-03-18T19:10:29 EDT" name="setUp" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1584573029400" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in /Users/anshumansehgal/eclipse-workspace/NaveenPOMSeries/src/test/resources/testrunners/testng_Regression.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in /Users/anshumansehgal/eclipse-workspace/NaveenPOMSeries/src/test/resources/testrunners/testng_Regression.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:289)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
-at org.testng.internal.Parameters.createParameters(Parameters.java:721)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifySignUpLinkTest()[pri:2, instance:com.qa.hubspot.tests.LoginPageTest@4a0df195]" started-at="2020-03-18T19:10:29 EDT" name="verifySignUpLinkTest" finished-at="2020-03-18T19:10:29 EDT" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in /Users/anshumansehgal/eclipse-workspace/NaveenPOMSeries/src/test/resources/testrunners/testng_Regression.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in /Users/anshumansehgal/eclipse-workspace/NaveenPOMSeries/src/test/resources/testrunners/testng_Regression.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:289)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
-at org.testng.internal.Parameters.createParameters(Parameters.java:721)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySignUpLinkTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@4a0df195]" started-at="2020-03-18T19:10:29 EDT" name="tearDown" finished-at="2020-03-18T19:10:29 EDT" duration-ms="1" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.qa.hubspot.tests.LoginPageTest.tearDown(LoginPageTest.java:100)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:530)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@4a0df195]" started-at="2020-03-18T19:10:29 EDT" name="setUp" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1584573029446" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in /Users/anshumansehgal/eclipse-workspace/NaveenPOMSeries/src/test/resources/testrunners/testng_Regression.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in /Users/anshumansehgal/eclipse-workspace/NaveenPOMSeries/src/test/resources/testrunners/testng_Regression.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:289)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
-at org.testng.internal.Parameters.createParameters(Parameters.java:721)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginTest()[pri:3, instance:com.qa.hubspot.tests.LoginPageTest@4a0df195]" started-at="2020-03-18T19:10:29 EDT" name="loginTest" finished-at="2020-03-18T19:10:29 EDT" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in /Users/anshumansehgal/eclipse-workspace/NaveenPOMSeries/src/test/resources/testrunners/testng_Regression.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in /Users/anshumansehgal/eclipse-workspace/NaveenPOMSeries/src/test/resources/testrunners/testng_Regression.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:289)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
-at org.testng.internal.Parameters.createParameters(Parameters.java:721)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@4a0df195]" started-at="2020-03-18T19:10:29 EDT" name="tearDown" finished-at="2020-03-18T19:10:29 EDT" duration-ms="1" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.qa.hubspot.tests.LoginPageTest.tearDown(LoginPageTest.java:100)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:530)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.hubspot.tests.LoginPageTest -->
-      <class name="com.qa.hubspot.tests.ContactsPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@9255c05]" started-at="2020-03-18T19:11:05 EDT" name="setUp" finished-at="2020-03-18T19:11:20 EDT" duration-ms="15378" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyContactsPageTitle()[pri:1, instance:com.qa.hubspot.tests.ContactsPageTest@9255c05]" started-at="2020-03-18T19:11:20 EDT" name="verifyContactsPageTitle" finished-at="2020-03-18T19:11:20 EDT" duration-ms="74" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContactsPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@9255c05]" started-at="2020-03-18T19:11:20 EDT" name="tearDown" finished-at="2020-03-18T19:11:20 EDT" duration-ms="189" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@9255c05]" started-at="2020-03-18T19:11:21 EDT" name="setUp" finished-at="2020-03-18T19:11:36 EDT" duration-ms="15108" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="createContactsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.hubspot.tests.ContactsPageTest@9255c05]" started-at="2020-03-18T19:11:36 EDT" name="createContactsTest" data-provider="getContactsTestData" finished-at="2020-03-18T19:11:46 EDT" duration-ms="9427" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[tom@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[tom]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[peter]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[QA Lead]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createContactsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@9255c05]" started-at="2020-03-18T19:11:46 EDT" name="tearDown" finished-at="2020-03-18T19:11:46 EDT" duration-ms="212" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@9255c05]" started-at="2020-03-18T19:11:46 EDT" name="setUp" finished-at="2020-03-18T19:12:01 EDT" duration-ms="14975" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="createContactsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.hubspot.tests.ContactsPageTest@9255c05]" started-at="2020-03-18T19:12:01 EDT" name="createContactsTest" data-provider="getContactsTestData" finished-at="2020-03-18T19:12:10 EDT" duration-ms="9653" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[steve@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Steve]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Jacobs]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Dev]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createContactsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@9255c05]" started-at="2020-03-18T19:12:11 EDT" name="tearDown" finished-at="2020-03-18T19:12:11 EDT" duration-ms="244" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.hubspot.tests.ContactsPageTest -->
+    <test started-at="2020-03-18T19:39:49 EDT" name="HubSpot Functional Regression Test" finished-at="2020-03-18T19:40:24 EDT" duration-ms="34743">
       <class name="com.qa.hubspot.tests.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@42fcc7e6]" started-at="2020-03-18T19:10:29 EDT" name="setUp" finished-at="2020-03-18T19:10:41 EDT" duration-ms="12071" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@671facee]" started-at="2020-03-18T19:39:49 EDT" name="setUp" finished-at="2020-03-18T19:40:01 EDT" duration-ms="11424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyHomePageTitleTest()[pri:1, instance:com.qa.hubspot.tests.HomePageTest@42fcc7e6]" started-at="2020-03-18T19:10:41 EDT" name="verifyHomePageTitleTest" finished-at="2020-03-18T19:10:42 EDT" duration-ms="1252" status="PASS">
+        <test-method signature="verifyHomePageTitleTest()[pri:1, instance:com.qa.hubspot.tests.HomePageTest@671facee]" started-at="2020-03-18T19:40:01 EDT" name="verifyHomePageTitleTest" finished-at="2020-03-18T19:40:02 EDT" duration-ms="1253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@42fcc7e6]" started-at="2020-03-18T19:10:42 EDT" name="tearDown" finished-at="2020-03-18T19:10:42 EDT" duration-ms="174" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@671facee]" started-at="2020-03-18T19:40:02 EDT" name="tearDown" finished-at="2020-03-18T19:40:02 EDT" duration-ms="144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@42fcc7e6]" started-at="2020-03-18T19:10:43 EDT" name="setUp" finished-at="2020-03-18T19:10:52 EDT" duration-ms="9413" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@671facee]" started-at="2020-03-18T19:40:02 EDT" name="setUp" finished-at="2020-03-18T19:40:12 EDT" duration-ms="9616" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyHomePageHeader()[pri:2, instance:com.qa.hubspot.tests.HomePageTest@42fcc7e6]" started-at="2020-03-18T19:10:52 EDT" name="verifyHomePageHeader" finished-at="2020-03-18T19:10:52 EDT" duration-ms="41" status="FAIL">
+        <test-method signature="verifyHomePageHeader()[pri:2, instance:com.qa.hubspot.tests.HomePageTest@671facee]" started-at="2020-03-18T19:40:12 EDT" name="verifyHomePageHeader" finished-at="2020-03-18T19:40:12 EDT" duration-ms="27" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[did not expect to find [Service Dashboard] but found [null]]]>
@@ -567,15 +74,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageHeader -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@42fcc7e6]" started-at="2020-03-18T19:10:53 EDT" name="tearDown" finished-at="2020-03-18T19:10:53 EDT" duration-ms="150" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@671facee]" started-at="2020-03-18T19:40:13 EDT" name="tearDown" finished-at="2020-03-18T19:40:13 EDT" duration-ms="156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@42fcc7e6]" started-at="2020-03-18T19:10:53 EDT" name="setUp" finished-at="2020-03-18T19:11:03 EDT" duration-ms="9627" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@671facee]" started-at="2020-03-18T19:40:13 EDT" name="setUp" finished-at="2020-03-18T19:40:23 EDT" duration-ms="9492" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyLoggedInUserTest()[pri:3, instance:com.qa.hubspot.tests.HomePageTest@42fcc7e6]" started-at="2020-03-18T19:11:03 EDT" name="verifyLoggedInUserTest" finished-at="2020-03-18T19:11:03 EDT" duration-ms="48" status="FAIL">
+        <test-method signature="verifyLoggedInUserTest()[pri:3, instance:com.qa.hubspot.tests.HomePageTest@671facee]" started-at="2020-03-18T19:40:23 EDT" name="verifyLoggedInUserTest" finished-at="2020-03-18T19:40:23 EDT" duration-ms="84" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[did not expect to find [Anshuman Sehgal] but found [null]]]>
@@ -623,7 +130,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoggedInUserTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@42fcc7e6]" started-at="2020-03-18T19:11:04 EDT" name="tearDown" finished-at="2020-03-18T19:11:05 EDT" duration-ms="147" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@671facee]" started-at="2020-03-18T19:40:24 EDT" name="tearDown" finished-at="2020-03-18T19:40:24 EDT" duration-ms="203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
