@@ -4,8 +4,8 @@
 
 	<listeners>
 	 	<listener class-name="com.qa.hubspot.listeners.ExtentReportListener"></listener> 
-		<listener class-name="com.qa.hubspot.listeners.TestAllureListener"></listener>
-		<listener class-name="com.qa.hubspot.listeners.TessultsListener"></listener>
+<!-- 		<listener class-name="com.qa.hubspot.listeners.TestAllureListener"></listener>
+		<listener class-name="com.qa.hubspot.listeners.TessultsListener"></listener> -->
 			
 	</listeners>
 	
@@ -19,6 +19,8 @@
 			
 		<classes>
 
+			<class name="com.qa.hubspot.tests.LoginPageTest" />
+			<class name="com.qa.hubspot.tests.HomePageTest" />
 			<class name="com.qa.hubspot.tests.LoginPageTest" />
 		</classes>
 	</test>
