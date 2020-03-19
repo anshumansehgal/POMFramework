@@ -3,6 +3,8 @@
 <suite name="Failed suite [HubSpot Regression Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="com.qa.hubspot.listeners.ExtentReportListener"/>
+    <listener class-name="com.qa.hubspot.listeners.TestAllureListener"/>
+    <listener class-name="com.qa.hubspot.listeners.TessultsListener"/>
   </listeners>
   <test thread-count="5" name="HubSpot Functional Regression Test(failed)">
     <classes>

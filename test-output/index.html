@@ -195,6 +195,8 @@
 &lt;suite name=&quot;HubSpot Regression Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.qa.hubspot.listeners.ExtentReportListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.qa.hubspot.listeners.TestAllureListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.qa.hubspot.listeners.TessultsListener&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;HubSpot Functional Regression Test&quot;&gt;
     &lt;classes&gt;
@@ -250,15 +252,15 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyHomePageTitleTest')
 data.setCell(0, 2, 'com.qa.hubspot.tests.HomePageTest')
-data.setCell(0, 3, 1253);
+data.setCell(0, 3, 1272);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyLoggedInUserTest')
 data.setCell(1, 2, 'com.qa.hubspot.tests.HomePageTest')
-data.setCell(1, 3, 84);
+data.setCell(1, 3, 68);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifyHomePageHeader')
 data.setCell(2, 2, 'com.qa.hubspot.tests.HomePageTest')
-data.setCell(2, 3, 27);
+data.setCell(2, 3, 36);
 window.suiteTableData['HubSpot_Regression_Suite']= { tableData: data, tableDiv: 'times-div-HubSpot_Regression_Suite'}
 return data;
 }
@@ -296,39 +298,39 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyHomePageTitleTest</span>
-                <span class="method-start">11713 ms</span>
+                <span class="method-start">13080 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">12991 ms</span>
+                <span class="method-start">14380 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">13143 ms</span>
+                <span class="method-start">14572 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyHomePageHeader</span>
-                <span class="method-start">22760 ms</span>
+                <span class="method-start">25650 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">24101 ms</span>
+                <span class="method-start">28192 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">24259 ms</span>
+                <span class="method-start">28394 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyLoggedInUserTest</span>
-                <span class="method-start">33753 ms</span>
+                <span class="method-start">38690 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">34429 ms</span>
+                <span class="method-start">41033 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
